@@ -1,0 +1,270 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: #201b2d;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: 900;
+}
+
+p{
+    margin: 0;
+    line-height: 1.6em;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.header {
+    background: rgb(77,190,254);
+    background: linear-gradient(90deg, rgba(77,190,254,1) 44%, rgba(55,143,217,1) 100%);
+    padding-top: 66px;
+    padding-bottom: 142px;
+    color: white;
+}
+
+.wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+}
+
+.offer {
+    width: 565px;
+}
+
+.title {
+    font-size: 37px;
+}
+
+.title span {
+    font-size: 59px;
+}
+
+.intro {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 44px;
+}
+
+.btn {
+    background: #ffd429;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    width: 220px;
+    padding: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background: #efc934;
+}
+
+
+.learn {
+    padding-top: 108px;
+    padding-bottom: 120px;
+}
+
+.section-title {
+    font-size: 30px;
+    text-align: center;
+}
+
+.dreams {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+
+.dream{
+    text-align: center;
+    width: 305px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-top: 85px;
+}
+
+.dream-1 {
+    background-image: url('../img/icon1.png');
+}
+
+.dream-2 {
+    background-image: url('../img/icon2.png');
+}
+
+.dream-3 {
+    background-image: url('../img/icon3.png');
+}
+
+.dream-title {
+    font-size: 19px;
+}
+
+.dream-text {
+    margin-top: 10px;
+}
+.info {
+    background: #ecf3f8;
+    padding-top: 108px;
+    padding-bottom: 100px;
+}
+
+.input {
+    width: 100%;
+    display: block;
+    margin-bottom: 17px;
+    height: 48px;
+    border: 1px solid #bbbbbb;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 27px;
+}
+
+.form {
+    max-width: 341px;
+    margin: 60px auto 0;
+}
+
+.btn-form {
+    width: 100%;
+    border: 0;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.footer {
+    padding: 60px 0;
+    background: #164d7a;
+}
+
+.credits {
+    color:#fff;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.animated {
+    opacity: 0;
+}
+
+/* Responsive */
+
+/* 0px-1440px */
+@media screen and (max-width: 1440px){
+    .wrapper {
+        margin-top: 36px;
+    }
+}
+
+/* 0px-1200px */
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+    .suitcase {
+        max-width: 50%;
+    }
+    .header {
+        padding-bottom: 80px;
+    }
+    .footer{
+        padding: 30px 0;
+    }
+}
+
+/* 768px-992px */
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+    .wrapper {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .offer {
+        width: 100%;
+    }
+    .intro {
+        margin-top: 15px;
+        margin-bottom: 22px;
+        width: 100%;
+        text-align: center;
+    }
+    .learn,.info {
+        padding: 80px 0;
+    }
+    .title {
+        text-align: center;
+    }
+    .btn {
+        display: block;
+        margin: 0 auto;
+    }
+    .suitcase {
+        display: block;
+        max-width: 540px;
+        margin: 0 auto;
+    }
+    .dreams {
+        flex-direction: column;
+    }
+    .dream {
+        width: auto;
+        margin-bottom: 35px;
+    }
+    
+}
+
+/* 576px-768px */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 540px;
+
+    }
+    .header {
+        padding-top: 30px;
+    }
+    .suitcase {
+        width: 100%;
+    }
+    .title {
+       font-size: 28px;
+    }
+    .title span {
+        display: block;
+        font-size: 52px;
+    }
+    .dreams {
+        margin-top: 45px;
+    }
+}
+
+/* 320px-576px */
+@media screen and (max-width: 576px) {
+    .container {
+        width:90%;
+    }
+    .form {
+        margin-top: 40px;
+    }
+}
+
+
+
+
